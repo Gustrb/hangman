@@ -20,7 +20,7 @@ enum GameProgress {
 }
 
 fn main() {
-    let mut turns_left= ALLOWED_ATTEMPTS;
+    let mut turns_left = ALLOWED_ATTEMPTS;
     let selected_word = select_word();
     let mut letters = create_letters(&selected_word);
 
