@@ -1,0 +1,1 @@
+carro,moto,computador,monitor,inscrito,leite,vaca,cabra,macaco,cobra,cavalo
