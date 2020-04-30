@@ -20,8 +20,8 @@ enum GameProgress {
 }
 
 fn main() {
-    let mut turns_left       = ALLOWED_ATTEMPTS;
-    let selected_word    = select_word();
+    let mut turns_left= ALLOWED_ATTEMPTS;
+    let selected_word = select_word();
     let mut letters = create_letters(&selected_word);
 
     //Main game loop
@@ -30,8 +30,8 @@ fn main() {
         display_progress(&letters);
 
         println!("\nPlease enter a character");
-        let user_char        = user_input::read_char();
-        let mut one_revealed = false;
+        let user_char = user_input::read_char();
+        let mut one_revealed  = false;
 
         match user_char {
             '*' => return,
